@@ -1,0 +1,69 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/* Fuente del Navbar */
+.marca {
+  font-family: 'Lobster', cursive;
+}
+
+.margen__nosotros {
+  height: 25px;
+}
+
+/* Hero Section */
+
+.diseño_titulo {
+  text-shadow: 1px 3px black, 4px 4px orangered;
+}
+
+#Hero-Section {
+  background-image: url("../img/araucania-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+
+.color_fuente {
+  font-size: 100px;
+  color: green;
+  text-shadow: 1px 6px black, 4px 6px cadetblue;
+}
+
+/* Mis trabajos */
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Viajes */
+
+.diseño_fuente {
+  text-shadow: 1px 2px yellow, 4px 4px cadetblue;
+}
+
+.color_fondo {
+  background-color: green;
+}
+
+
+/* Contacto */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+@media (max-width: 768px) {
+  #Contacto form label {
+    font-weight: 400;
+  }
+
+  .navbar-brand{
+    width: 100px;
+  }
+
+}
