@@ -1,69 +1,82 @@
 body {
-  font-family: "Raleway", sans-serif;
-}
-
-/* Fuente del Navbar */
-.marca {
-  font-family: 'Lobster', cursive;
+  font-family: sans-serif;
 }
 
 .margen__nosotros {
   height: 25px;
 }
 
-/* Hero Section */
-
-.diseño_titulo {
-  text-shadow: 1px 3px black, 4px 4px orangered;
-}
-
 #Hero-Section {
-  background-image: url("../img/araucania-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
 }
 
+input {
+  border: 0;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
+.limite_central {
+  padding-top: 130px;
+}
+
+.logo {
+  width: 120px;
+}
+
+.logo_gob {
+  width: 80px;
+}
+
+.logo_autonoma {
+  width: 80px;
+}
+
 .color_fuente {
-  font-size: 100px;
-  color: green;
-  text-shadow: 1px 6px black, 4px 6px cadetblue;
+  font-size: 30px;
+  color: black;
+  margin: 20px;
+  padding: 0;
+  vertical-align: middle;
+  text-align: center;
 }
 
-/* Mis trabajos */
-
-#Mis-trabajos .image-top {
-  height: 250px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+.text_araucania {
+  text-align: center;
+  font-size: 30px;
+  vertical-align: middle;
+  padding-top: 12rem;
 }
 
-/* Viajes */
-
-.diseño_fuente {
-  text-shadow: 1px 2px yellow, 4px 4px cadetblue;
+.color_boton {
+  color: #ffffff;
+  background-color: #201169;
+  border-color: #201169;
+  border-radius: 16px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 20px;
 }
 
-.color_fondo {
-  background-color: green;
+.color_boton:hover {
+  transition: all;
 }
 
-
-/* Contacto */
-
-#Contacto form label {
-  font-weight: 700;
-  color: #373a3c;
+.img_grande {
+  height: 100%;
+  padding-bottom: 40px;
+  padding-top: 20px;
 }
 
-@media (max-width: 768px) {
-  #Contacto form label {
-    font-weight: 400;
-  }
-
-  .navbar-brand{
-    width: 100px;
-  }
-
+.region {
+  font-size: 35px;
+  color: black;
 }
